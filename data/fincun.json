@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "siteTitle": "Fincun",
+    "legalName": "Fincun Private Limited",
+    "siteDescription": "",
+    "favicon": "/fincun/favicon.ico",
+    "logo": "/fincun/fincun-logo.png"
+  },
+  "contact": {
+    "address": "l/J-2, Chandi Vyapar Bhawan, Exhibition Road, Patna, 800001",
+    "timing": "Mon-Sun : 8:00 AM - 8:00 PM",
+    "email": "contact@fincun.in",
+    "phone": "+91 9835349232, +91 6123563039"
+  },
+  "menus": [
+    {
+      "title": "Home",
+      "path": "/"
+    },
+    {
+      "title": "About",
+      "path": "/about-us"
+    },
+
+    {
+      "title": "Services",
+      "path": "/services"
+    },
+    {
+      "title": "Resources",
+      "path": "/resources"
+    },
+    {
+      "title": "Media",
+      "path": "/media"
+    },
+    {
+      "title": "Contact",
+      "path": "/contact-us"
+    }
+  ],
+  "banner": [
+    {
+      "title": "Simplifying Wealth, Maximizing Growth",
+      "subTitle": "Fincun helps you invest smarter with transparent, goal-based financial strategies designed for long-term success.",
+      "cta": "Start Your Journey",
+      "image": "/fincun/banner/banner-1.webp"
+    },
+    {
+      "title": "Your Money, Working Smarter",
+      "subTitle": "With real-time insights and adaptive portfolio management, we make sure your wealth keeps pace with the market.",
+      "cta": "Optimize My Portfolio",
+      "image": "/fincun/banner/banner-2.webp"
+    },
+    {
+      "title": "Building Futures, One Goal at a Time",
+      "subTitle": "From retirement to family security, FINCUN’s expert advisors craft financial plans that grow with your life.",
+      "cta": "Get Free Consultation",
+      "image": "/fincun/banner/banner-3.webp"
+    }
+  ]
+}

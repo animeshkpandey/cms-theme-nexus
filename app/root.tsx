@@ -18,6 +18,7 @@ import {
 
 import type { Route } from "./+types/root";
 import BaseTheme from "./helpers/base-theme";
+import data from "../data/fincun.json";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -38,6 +39,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" href={data.meta.favicon} />
         <ColorSchemeScript />
         <Meta />
         <Links />
