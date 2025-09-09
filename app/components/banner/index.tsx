@@ -7,6 +7,7 @@ export default function Banner() {
       <Carousel.Slide>
         <Flex
           w="100%"
+          p="md"
           h={600}
           direction="column"
           justify="center"
@@ -17,13 +18,33 @@ export default function Banner() {
         </Flex>
       </Carousel.Slide>
       <Carousel.Slide>
-        <Flex w="100%" h={600} justify="center" align="center">
-          <Text fz="h1">Light & Elegant Theme</Text>
+        <Flex
+          w="100%"
+          p="md"
+          h={600}
+          direction="column"
+          justify="center"
+          align="center"
+        >
+          <Text fz="h1">Nexus Theme</Text>
+          <Text fz="md" ta="center">
+            Light & Elegant Theme.
+          </Text>
         </Flex>
       </Carousel.Slide>
       <Carousel.Slide>
-        <Flex w="100%" h={600} justify="center" align="center">
-          <Text fz="h1">Download now from saasfalir marketplace</Text>
+        <Flex
+          w="100%"
+          p="md"
+          h={600}
+          direction="column"
+          justify="center"
+          align="center"
+        >
+          <Text fz="h1">Nexus Theme</Text>
+          <Text fz="md" ta="center">
+            Download now from saasflair marketplace.
+          </Text>
         </Flex>
       </Carousel.Slide>
     </Carousel>

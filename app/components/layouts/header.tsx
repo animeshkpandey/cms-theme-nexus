@@ -1,7 +1,8 @@
-import { ActionIcon, Flex, Group, Image, Text } from "@mantine/core";
+import { ActionIcon, Flex, Group, Text } from "@mantine/core";
 import {
   IconBrandFacebook,
   IconBrandLinkedin,
+  IconBrandLinkedinFilled,
   IconBrandX,
 } from "@tabler/icons-react";
 
@@ -22,7 +23,7 @@ export default function Header() {
               <IconBrandX width="70%" height="70%" />
             </ActionIcon>
             <ActionIcon radius="lg" color="brand" variant="light">
-              <IconBrandLinkedin width="70%" height="70%" />
+              <IconBrandLinkedinFilled width="70%" height="70%" />
             </ActionIcon>
           </Group>
         </Group>
