@@ -19,24 +19,24 @@
     },
     {
       "title": "About",
-      "path": "/about-us"
+      "path": "/"
     },
 
     {
       "title": "Services",
-      "path": "/services"
+      "path": "/"
     },
     {
       "title": "Resources",
-      "path": "/resources"
+      "path": "/"
     },
     {
       "title": "Media",
-      "path": "/media"
+      "path": "/"
     },
     {
       "title": "Contact",
-      "path": "/contact-us"
+      "path": "/"
     }
   ],
   "banner": [

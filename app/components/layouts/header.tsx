@@ -54,7 +54,12 @@ export default function Header() {
       </Flex>
       <Divider color="gray.2" />
 
-      <Flex py="md" px="3em" justify="space-between">
+      <Flex
+        py="md"
+        px={{ base: "md", md: "3em" }}
+        w="100%"
+        justify="space-between"
+      >
         <Image src={meta.logo} w={150} />
         <Group gap="xl">
           <nav>

@@ -8,7 +8,7 @@ export default function Banner() {
   return (
     <Carousel withIndicators w="100%" h={600}>
       {banner.map((b, i) => (
-        <Carousel.Slide key={i}>
+        <Carousel.Slide key={b.title}>
           <Flex
             style={{
               position: "relative",
@@ -20,19 +20,23 @@ export default function Banner() {
             }}
           >
             <Flex
-              pos="absolute"
+              pos={{ base: "relative", md: "absolute" }}
               w={{ base: "100%", md: "50%" }}
-              px={{ base: "3em", md: "3em" }}
+              px="3em"
               h={600}
               direction="column"
               justify="center"
             >
-              <Title fz="h1">{b.title}</Title>
+              <Title order={1} fz={{ base: "h1", md: "3em" }}>
+                {b.title}
+              </Title>
               <Space my="md" />
               <Text fz="md">{b.subTitle}</Text>
               <Space my="xl" />
               <Flex>
-                <Button size="lg">{b.cta}</Button>
+                <Button color="fincun" size="lg">
+                  {b.cta}
+                </Button>
               </Flex>
             </Flex>
           </Flex>
