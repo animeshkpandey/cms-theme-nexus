@@ -20,11 +20,16 @@
     },
     {
       "title": "About",
-      "slug": "/",
+      "slug": "/about-us",
       "subMenus": []
     },
     {
       "title": "Services",
+      "slug": "/services",
+      "subMenus": []
+    },
+    {
+      "title": "Resources",
       "slug": "/",
       "subMenus": [
         {
@@ -34,11 +39,6 @@
           "icon": "/"
         }
       ]
-    },
-    {
-      "title": "Resources",
-      "slug": "/",
-      "subMenus": []
     },
     {
       "title": "Media",
@@ -83,7 +83,7 @@
         "subMenus": [
           {
             "name": "About us",
-            "slug": "/"
+            "slug": "/about-us"
           },
           {
             "name": "Conact us",
@@ -215,6 +215,108 @@
           "Loans against mutual funds.",
           "Transparent & unbiased recommendations."
         ]
+      }
+    ]
+  },
+  "aboutUs": {
+    "tag": "About Us",
+    "title": "Your Trusted Partner in Smart Financial Planning",
+    "subTitle": "<div>At FINCUN, we believe finance doesn’t have to be complicated. Our mission is simple — to make wealth management transparent, smart, and stress-free for everyone. We blend personalized advisory with technology-driven insights to help you plan, grow, and protect your financial future with confidence. <br/ > <br/ >  Whether you’re looking to optimize your existing investments or build a brand-new financial roadmap, FINCUN is here to simplify the process, every step of the way.</div>",
+    "image": "/fincun/about-section.webp",
+    "tabs": [
+      {
+        "label": "Our Mission",
+        "content": "To empower individuals and institutions with clear, data-backed financial solutions that align with their goals and create long-term value."
+      },
+      {
+        "label": "Our Vision",
+        "content": "To redefine wealth management by making professional financial planning accessible, transparent, and future-ready for all."
+      }
+    ]
+  },
+  "coreStrengthSection": {
+    "tag": "Our Core Strengths",
+    "title": "A trusted name in financial planning and wealth management",
+    "subTitle": "At FINCUN, our strength lies in combining human expertise with smart technology. We focus on understanding your goals, simplifying complex financial decisions, and delivering solutions that are transparent, reliable, and future-ready.",
+    "cta": "Read More",
+    "features": [
+      {
+        "title": "Client-Centric Approach",
+        "subTitle": "We listen first, plan second. Every solution begins with understanding your goals.",
+        "cta": "Read More"
+      },
+      {
+        "title": "Technology + Expertise",
+        "subTitle": "From wealth growth to risk protection, we cover all aspects of your financial life.",
+        "cta": "Read More"
+      },
+      {
+        "title": "Holistic Financial Solutions",
+        "subTitle": "From wealth growth to risk protection, we cover all aspects of your financial life.",
+        "cta": "Read More"
+      },
+      {
+        "title": "Trusted Relationships",
+        "subTitle": "We measure success not just in numbers, but in long-term trust and client satisfaction.",
+        "cta": "Read More"
+      }
+    ]
+  },
+  "teamSection": {
+    "tag": "Our Team",
+    "title": "Meet Your Trusted Advisors",
+    "subTitle": "Behind FINCUN is a team of passionate financial professionals who bring together deep industry experience and a vision to make finance human, approachable, and reliable.",
+    "members": [
+      {
+        "name": "Bikesh Ojha",
+        "image": "/fincun/team/bikesh.webp"
+      },
+      {
+        "name": "Bikesh Ojha",
+        "image": "/fincun/team/bikesh.webp"
+      },
+      {
+        "name": "Bikesh Ojha",
+        "image": "/fincun/team/bikesh.webp"
+      }
+    ]
+  },
+  "promiseSection": {
+    "tag": "Our Team",
+    "title": "Your goals, our commitment",
+    "subTitle": "<div>At FINCUN, we promise more than financial advice — we promise a partnership built on trust, clarity, and care. Every recommendation we make is aligned with your aspirations, backed by expertise, and delivered with complete transparency. <br/><br/><br/> With us, you’ll always know where your money stands and where it’s headed.</>",
+    "cta": "Start Your Journey with FINCUN"
+  },
+  "whyFincunSection": {
+    "tag": "Why Fincun ?",
+    "title": "Because Your Financial Journey Deserves Clarity",
+    "subTitle": "When it comes to your money, trust and clarity matter most. That’s why we simplify every step, with FINCUN, it’s not just about money, it’s about building the future you deserve.",
+    "cta": "Read More",
+    "features": [
+      {
+        "title": "Simplified Finance",
+        "subTitle": "No jargon, just clear explanations and easy-to-follow advice",
+        "cta": "Read More"
+      },
+      {
+        "title": "Personalized Strategies",
+        "subTitle": "Every plan is built around your unique goals and lifestyle.",
+        "cta": "Read More"
+      },
+      {
+        "title": "Smart Technology",
+        "subTitle": "Real-time insights and automated tools that keep your portfolio ahead of market shifts.",
+        "cta": "Read More"
+      },
+      {
+        "title": "Transparent Advice",
+        "subTitle": "Honest recommendations with no hidden agendas and bias.",
+        "cta": "Read More"
+      },
+      {
+        "title": "End-to-End Support",
+        "subTitle": "From mutual funds to loans against investments, we’re with you at every step.",
+        "cta": "Read More"
       }
     ]
   }

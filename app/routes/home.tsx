@@ -1,4 +1,5 @@
 import type { Route } from "./+types/home";
+
 import Home from "~/pages/home";
 import useData from "~/hooks/useData";
 
