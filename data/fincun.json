@@ -91,7 +91,7 @@
           },
           {
             "name": "Our Services",
-            "slug": "/"
+            "slug": "/services"
           },
           {
             "name": "Terms & Conditions",
@@ -282,7 +282,7 @@
     ]
   },
   "promiseSection": {
-    "tag": "Our Team",
+    "tag": "Our Promise",
     "title": "Your goals, our commitment",
     "subTitle": "<div>At FINCUN, we promise more than financial advice — we promise a partnership built on trust, clarity, and care. Every recommendation we make is aligned with your aspirations, backed by expertise, and delivered with complete transparency. <br/><br/><br/> With us, you’ll always know where your money stands and where it’s headed.</>",
     "cta": "Start Your Journey with FINCUN"

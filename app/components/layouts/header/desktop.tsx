@@ -47,7 +47,7 @@ export default function Desktop() {
                 <Stack key={child.title} py="sm">
                   <Link to={child.slug}>
                     <Group>
-                      <Image src={child.icon} w={36} radius="sm" />
+                      {/* <Image src={child.icon} w={36} radius="sm" /> */}
                       <Stack gap={0}>
                         <Text fz="sm" fw={500}>
                           {child.title}

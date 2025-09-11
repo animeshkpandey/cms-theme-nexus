@@ -1,16 +1,25 @@
 import {
   IconArrowRight,
+  IconBrandFacebook,
+  IconBrandLinkedin,
+  IconBrandX,
   IconClock,
+  IconClockFilled,
   IconMail,
+  IconMailFilled,
   IconMapPin,
+  IconMapPinFilled,
   IconPhone,
+  IconPhoneFilled,
 } from "@tabler/icons-react";
 import {
+  ActionIcon,
   Button,
   Flex,
   Grid,
   Group,
   List,
+  Space,
   Text,
   TextInput,
 } from "@mantine/core";
@@ -31,44 +40,56 @@ export default function Footer() {
       >
         <Grid w="100%">
           <Grid.Col span={{ base: 12, md: 4 }}>
-            <Text fw={600} mb="lg">
+            <Text fw={600} mb="lg" fz="lg">
               Our Office
             </Text>
             <List spacing="sm">
               <List.Item>
                 <Group>
-                  <IconMapPin size={20} />
-                  <Text w="250" fz="sm">
+                  <IconMapPinFilled color="#0076b6" size={20} />
+                  <Text w="300" fz="sm" fw={600}>
                     {contact.address}
                   </Text>
                 </Group>
               </List.Item>
               <List.Item>
                 <Group>
-                  <IconMail size={20} />
+                  <IconMailFilled color="#0076b6" size={20} />
                   <Text fz="sm">{contact.email}</Text>
                 </Group>
               </List.Item>
               <List.Item>
                 <Group>
-                  <IconPhone size={20} />
+                  <IconPhoneFilled color="#0076b6" size={20} />
                   <Text fz="sm">{contact.phone}</Text>
                 </Group>
               </List.Item>
               <List.Item>
                 <Group>
-                  <IconClock size={20} />
+                  <IconClockFilled color="#0076b6" size={20} />
                   <Text fz="sm">{contact.timing}</Text>
                 </Group>
               </List.Item>
             </List>
+            <Space my="xl" />
+            <Group>
+              <ActionIcon radius="lg" color="fincun" variant="light">
+                <IconBrandFacebook width="70%" height="70%" />
+              </ActionIcon>
+              <ActionIcon radius="lg" color="fincun" variant="light">
+                <IconBrandX width="70%" height="70%" />
+              </ActionIcon>
+              <ActionIcon radius="lg" color="fincun" variant="light">
+                <IconBrandLinkedin width="70%" height="70%" />
+              </ActionIcon>
+            </Group>
           </Grid.Col>
           {/* Columns */}
           <Grid.Col span={{ base: 12, md: 5 }}>
             <Grid gutter="3em">
               {footer.menus.map((menu) => (
                 <Grid.Col key={menu.title} span={{ base: 12, md: 6 }}>
-                  <Text fw={600} mb="lg">
+                  <Text fw={600} mb="lg" fz="lg">
                     {menu.title}
                   </Text>
                   <List spacing="sm">
@@ -85,7 +106,9 @@ export default function Footer() {
             </Grid>
           </Grid.Col>
           <Grid.Col span={{ base: 12, md: 2 }}>
-            <Text fw={600}>Newsletter</Text>
+            <Text fw={600} fz="lg">
+              Newsletter
+            </Text>
             <Text fz="xs" mb="sm">
               For latest news and updates.
             </Text>
