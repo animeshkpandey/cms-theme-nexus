@@ -15,30 +15,96 @@
   "menus": [
     {
       "title": "Home",
-      "path": "/"
+      "slug": "/",
+      "subMenus": []
     },
     {
       "title": "About",
-      "path": "/"
+      "slug": "/",
+      "subMenus": []
     },
-
     {
       "title": "Services",
-      "path": "/"
+      "slug": "/",
+      "subMenus": [
+        {
+          "title": "",
+          "subTitle": "",
+          "slug": "/",
+          "icon": "/"
+        }
+      ]
     },
     {
       "title": "Resources",
-      "path": "/"
+      "slug": "/",
+      "subMenus": []
     },
     {
       "title": "Media",
-      "path": "/"
+      "slug": "/",
+      "subMenus": []
     },
     {
       "title": "Contact",
-      "path": "/"
+      "slug": "/",
+      "subMenus": []
     }
   ],
+  "footer": {
+    "menus": [
+      {
+        "title": "Services",
+        "subMenus": [
+          {
+            "name": "Financial Planning",
+            "slug": "/"
+          },
+          {
+            "name": "Cash Investment",
+            "slug": "/"
+          },
+          {
+            "name": "Financial Consultancy",
+            "slug": "/"
+          },
+          {
+            "name": "Business Loans",
+            "slug": "/"
+          },
+          {
+            "name": "Business Analysis",
+            "slug": "/"
+          }
+        ]
+      },
+      {
+        "title": "Quick Links",
+        "subMenus": [
+          {
+            "name": "About us",
+            "slug": "/"
+          },
+          {
+            "name": "Conact us",
+            "slug": "/"
+          },
+          {
+            "name": "Our Services",
+            "slug": "/"
+          },
+          {
+            "name": "Terms & Conditions",
+            "slug": "/"
+          },
+          {
+            "name": "Support",
+            "slug": "/"
+          }
+        ]
+      }
+    ]
+  },
   "banner": [
     {
       "title": "Simplifying Wealth, Maximizing Growth",
@@ -58,5 +124,98 @@
       "cta": "Get Free Consultation",
       "image": "/fincun/banner/banner-3.webp"
     }
-  ]
+  ],
+  "aboutSection": {
+    "tag": "About Us",
+    "title": "Shaping Smarter Financial Futures",
+    "subTitle": "<div>Founded with the belief that wealth management should be transparent, insightful, and client-first, FINCUN bridges the gap between complex finance and your future goals. <br /><br /> We blend <b>personalized advisory</b> with <b>technology-driven</b> insights to help you plan, grow, and protect your financial future with confidence.",
+    "image": "/fincun/about-section.webp",
+    "tabs": [
+      {
+        "label": "Our Mission",
+        "content": "To empower individuals and institutions with clear, data-backed financial solutions that align with their goals and create long-term value."
+      },
+      {
+        "label": "Our Vision",
+        "content": "To redefine wealth management by making professional financial planning accessible, transparent, and future-ready for all."
+      }
+    ]
+  },
+  "whySection": {
+    "tag": "Why Choosing Us",
+    "title": "Because your financial journey deserves clarity, trust, and smarter strategies",
+    "subTitle": "At FINCUN, we combine technology-driven insights with personalized advisory to help you grow, protect, and simplify your wealth.",
+    "cta": "Read More",
+    "features": [
+      {
+        "title": "Fast Executions",
+        "subTitle": "We act swiftly on market opportunities, so your investments are always aligned with changing trends.",
+        "cta": "Read More"
+      },
+      {
+        "title": "Financial Security",
+        "subTitle": "With risk management at the core, we ensure your wealth is built on safety, stability, and long-term confidence.",
+        "cta": "Read More"
+      },
+      {
+        "title": "Guide & Support",
+        "subTitle": "From mutual funds to retirement planning, our experts provide step-by-step guidance for every financial decision.",
+        "cta": "Read More"
+      }
+    ]
+  },
+  "whatSection": {
+    "tag": "Our Services",
+    "title": "Smart Solutions to Simplify Your Financial Journey",
+    "tabs": [
+      {
+        "label": "Wealth Assessment & Portfolio Optimization",
+        "title": "Check Your Wealth Health",
+        "subTitle": "Think of it as a health check-up for your investments. We review your portfolio, spot risks, and highlight growth opportunities so your money is always working smarter.",
+        "image": "/fincun/service-section-1.webp",
+        "content": [
+          "Easy-to-understand portfolio review.",
+          "Spot risks before they grow bigger.",
+          "Compare your returns with market benchmarks.",
+          "Action plan to boost performance."
+        ]
+      },
+      {
+        "label": "Personalized Wealth Planning",
+        "title": "Plan Your Future, Your Way",
+        "subTitle": "From buying a dream home to planning for retirement, our strategies are designed around your life goals - clear, flexible, and stress-free.",
+        "image": "/fincun/service-section-2.webp",
+        "content": [
+          "Goal-based financial roadmaps.",
+          "Retirement & child education planning.",
+          "Plans for wealth protection & growth.",
+          "Flexible solutions that adapt with you."
+        ]
+      },
+      {
+        "label": "Dynamic Portfolio Management",
+        "title": "Smarter Investing, On Autopilot",
+        "subTitle": "Markets move fast and we make sure your portfolio keeps up. With smart, data-driven adjustments, we capture opportunities and protect you from risks.",
+        "image": "/fincun/service-section-3.webp",
+        "content": [
+          "Automated portfolio rebalancing.",
+          "Real-time insights & adjustments.",
+          "Focus on both growth & safety.",
+          "Continuous monitoring and updates."
+        ]
+      },
+      {
+        "label": "Comprehensive Financial Advising",
+        "title": "Expert Advice, Made Simple",
+        "subTitle": "No jargon. No hidden agenda. Just clear, honest advice on mutual funds, NPS, PMS, AIFs, and more - so you can make decisions with confidence.",
+        "image": "/fincun/service-section-4.webp",
+        "content": [
+          "Mutual funds & NPS made easy.",
+          "PMS & AIF advisory support.",
+          "Loans against mutual funds.",
+          "Transparent & unbiased recommendations."
+        ]
+      }
+    ]
+  }
 }
